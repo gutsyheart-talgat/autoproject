@@ -1,0 +1,74 @@
+.allService{
+    min-height: 100vh;
+}
+.services-header{
+    width: 100%;
+    height: 50px;
+    background: blue;
+}
+.services-header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.services-btn{
+    border: none;
+    background: none;
+    font-size: large;
+    color: white;
+    font-weight: 600;
+    height: 100%;
+}
+.services-logo{
+    color:white;
+    font-weight: 900;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: large;
+}
+.services-nav{
+    height: 100%;
+}
+.services-Login{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.services-Login:hover,.services-btn:hover{
+    color: blue;
+    background: white;
+}
+.services-dark{
+    background: black;
+    min-height: 100vh;
+    padding-top: 25px;
+}
+.services-light{
+    background: white;
+    min-height: 100vh;
+    padding-top: 25px;
+}
+.services-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.services-info{
+    text-decoration: none;
+}
+.services-thing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+}
+.services-thing:hover{
+    background: rgb(240, 240, 240);
+    box-shadow: 5px 5px 5px rgb(163, 162, 162);
+}

@@ -1,0 +1,64 @@
+.mainPage-dark{
+    background: black;
+    min-width: 100vw;
+    min-height: 100vh;
+    color: aliceblue;
+    font-style: normal;
+    font-size: 22px;
+}
+.mainPage-light{
+    background: #fff;
+    min-width: 100vw;
+    min-height: 100vh;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-size: 22px;
+}
+.main-head{
+    background: blue;
+    width: 100%;
+    height: 80vh;
+}
+.main-head-btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.main-login{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.main-login:hover,.main-btn:hover{
+    background-color: #fff;
+    color: blue;
+}
+.main-btn{
+    padding: 5px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.main-logo{
+    margin-top: 80px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.main-logo>div{
+    width: 35vw;
+    height: 35vh;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

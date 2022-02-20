@@ -1,0 +1,45 @@
+.cabinet-info{
+    padding: 10px;
+    margin-bottom: 285px;
+}
+.cabinet-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background: blue;
+}
+.cabinet-profile{
+    font-weight: 900;
+}
+.cabinet-profileInfo{
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-top: 50px;
+}
+.profileInfo-shet,.profileInfo-name,.profileInfo-number,.profileInfo-email{
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.profileInfo-shet,.profileInfo-number{
+    margin-right: 10px;
+}
+.profileInfo-shet>h5,.profileInfo-name>h5,.profileInfo-number>h5,.profileInfo-email>h5{
+    margin-left: 5px;
+}
+.profileInfo-shet>p,.profileInfo-name>p,.profileInfo-number>p,.profileInfo-email>p{
+    margin-left: 5px;
+    margin-bottom: 0px;
+    color: rgb(158, 235, 71);
+    font-weight: 700;
+}
+.cabinet-footer{
+    position: absolute;
+    bottom: 0px;
+}

@@ -1,0 +1,66 @@
+.services{
+    margin-bottom: 50px;
+}
+.service-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.service-btn{
+    border: none;
+    background-color: rgb(158, 235, 71);
+    border-radius: 5px;
+    color: #fff;
+    width: 200px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 40px;
+}
+.service-btn:hover{
+    background-color: rgb(100,158,8);
+}
+.service-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.service-thing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    padding-top: 10px;
+}
+.services-info-light:hover{
+    background: rgb(240, 240, 240);
+    box-shadow: 5px 5px 5px rgb(163, 162, 162);
+}
+.services-info-dark{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.services-info-light{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.services-info-dark:hover{
+    background: rgb(15, 15, 15) ;
+    box-shadow: 5px 5px 5px rgb(49, 49, 49);
+}
+.service-carusel{
+    width: 200px;
+    height: 300px;
+    margin-bottom: -50px;
+}
+.service-img{
+    width: 200px;
+    height: 200px;
+}
+.service-img>img{
+    width: 100%;
+    height: 100%;
+}
