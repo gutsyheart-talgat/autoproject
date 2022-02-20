@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Cabinet from './pages/Cabinet';
 function App() {
   return (
-    <BrowserRouter basename="/auto-project">
+    <BrowserRouter basename="/">
         <Switch>
           <Route path="/" component={MainPage} exact/> 
           <Route path="/AllDetails" component={AllDetails} exact/> 
